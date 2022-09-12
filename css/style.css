@@ -1,39 +1,46 @@
-*{
-    
+* {
+
     background-color: #212121;
     margin: 0;
     padding: 0;
-    font-family:  'Tiro Bangla', serif;
+    font-family: 'Tiro Bangla', serif;
     text-align: center;
     color: rgb(222, 214, 214);
     font-size: 14px;
-    
-    
+
+
 }
 
-    /*navigation */
+/*navigation */
 
-header,div,a{
+header,
+div,
+a {
     text-decoration: none;
     align-items: center;
-    padding:  0 6%;
-    margin-top:5% ;
+    padding: 0 6%;
+    margin-top: 5%;
     color: #f6a71f;
 }
 
-header,div,a:hover{
-    color: #841ddf ;}
+header,
+div,
+a:hover {
+    color: #841ddf;
+}
 
-    /*header section */
-    
-.container{
+/*header section */
+
+.container {
     display: flex;
     justify-content: center;
     margin-bottom: 5%;
-}  
+}
 
+.img-2 {
+    width: 100%;
+}
 
-   
 
 
 .heading {
@@ -41,79 +48,86 @@ header,div,a:hover{
     font-size: 7rem;
     font-family: 'Tiro Bangla', serif;
     line-height: 1.3;
-    background: -webkit-linear-gradient(right,#4a00e0, #8e2de2);
+    background: -webkit-linear-gradient(right, #4a00e0, #8e2de2);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 
-h2{
+h2 {
     font-size: 2.5rem;
     font-family: 'Tiro Bangla', serif;
     margin-top: 30px;
     margin-bottom: 20px;
     color: #841ddf;
-    
+
 }
-h3{
+
+h3 {
     font-size: 1.2rem;
     font-family: 'Tiro Bangla', serif;
     margin-bottom: 20px;
-    color:#f6a71f ;
+    color: #f6a71f;
     text-align: left;
     font-weight: 200px;
 
 }
-h4{
+
+h4 {
     font-size: 0.9rem;
     font-family: 'Tiro Bangla', serif;
-    color:#f6a71f ;
+    color: #f6a71f;
     font-weight: 150px;
-    
+
 }
- hr{
-  
-  border: dotted #e3dddd 6px;
-  border-bottom: none;
-  width: 4%;
+
+hr {
+
+    border: dotted #e3dddd 6px;
+    border-bottom: none;
+    width: 4%;
     margin: 100px auto 100px auto;
 }
 
- 
 
- /* About Section */
 
-.about-me{
+/* About Section */
+
+.about-me {
     width: 35%;
     margin: auto;
 }
 
 /* section Work */
 
-.work-section{
+.work-section {
     width: 50%;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
     margin: auto;
     padding-bottom: 3%;
     padding-top: 3%;
-    align-items: center;    
+    align-items: center;
 }
-.work-image{
+
+.work-image {
     width: 25%;
     padding-right: 10%;
 }
-.work-image-2{
+
+.work-image-2 {
     width: 25%;
     padding-left: 10%;
-    
-    
+
+
 }
-.right{
+
+.right {
     margin-top: -7%;
 }
-.work-section-2{
+
+.work-section-2 {
     width: 50%;
     display: flex;
     justify-content: space-between;
@@ -121,20 +135,22 @@ h4{
     margin: auto;
     align-items: center;
 }
-.work-para-1{
+
+.work-para-1 {
     text-align: left;
     width: 100%;
 }
-.left{
+
+.left {
     margin: -5% 0 0 -5%;
 }
 
-    
 
-.work-heading{
+
+.work-heading {
     width: 50%;
     padding: 2%;
-    background-color:#262626 ;
+    background-color: #262626;
     font-size: 3rem;
     margin: auto;
 }
@@ -142,34 +158,38 @@ h4{
 
 /*section-help*/
 
-.heading-help{
-    padding:30px ;
+.heading-help {
+    padding: 30px;
     text-align: center;
-    background-color:#262626 ;
+    background-color: #262626;
     margin: auto;
     margin-top: -50px;
     width: 400px;
 }
-.help{
+
+.help {
     font-size: 3.rem;
     background: none;
     margin-bottom: 30px;
 }
-.help-para{
+
+.help-para {
     width: 40%;
     margin: auto;
-    margin-top:  5px;
+    margin-top: 5px;
     font-weight: 100;
-   
-}
-.available{
-    background: none;
-   
+
 }
 
-.button{
+.available {
+    background: none;
+
+}
+
+.button {
     background: none;
 }
+
 .btn {
     background: #4a00e0;
     background-image: -webkit-linear-gradient(top, #4a00e0, #8e2de2);
@@ -185,9 +205,9 @@ h4{
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #e61c55;
     background-image: -webkit-linear-gradient(top, #e61c55, #f6a71f);
     background-image: -moz-linear-gradient(top, #e61c55, #f6a71f);
@@ -195,69 +215,100 @@ h4{
     background-image: -o-linear-gradient(top, #e61c55, #f6a71f);
     background-image: linear-gradient(to bottom, #e61c55, #f6a71f);
     text-decoration: none;
-  }
+}
 
-.bottom{
+.bottom {
     background-color: #262626;
     background: none;
     padding: 40px;
     color: #f6a71f;
 }
 
-@media  (max-width:720px) {
-    .container{
+@media (max-width:420px) {
+    
+
+    .container {
         display: block;
     }
 
-    .heading{
-        margin: 5%;
+    .heading {
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .img2 {
+        display: block;
+        width: 50%;
+        padding-bottom: 10%;
+        margin: auto;
+    }
+    .img{
+        display: block;
+        width: 45%;
+        margin: auto;
+        padding-top: 10%;
+    }
+    .about-me{
+        width: 100%;
+    }
+    .work-heading{
+        width: 100%;
+        margin: auto;
+        
     }
     .work-section{
-        width: 50%;
-        margin-top:5% ;
-        justify-content: space-evenly;
         display: block;
 
     }
     .work-section-2{
-        width: 50%;
-        flex-direction: column;
-    }
-    
-    .left{
-        margin-top: 5%;
-        margin: auto;
+        display: block;
+
     }
     .right{
-        margin-top: 10%;
-        margin: auto;
+        width: 100%;
     }
-
-    h3{
-        text-align: center;
-        margin:  auto auto 5% auto;
-    }
-    .work-para-1{
-        text-align: center;
+    .left{
+        width: 100%;
     }
     .work-image{
-        width: 30%;
-        padding-left: 10%;
-        margin-bottom: 5%;
-      
+        width: 50%;
+        margin: auto;
+        padding: 10%;
+
     }
     .work-image-2{
-        width: 30%;
-        padding-right:10% ;
-        margin-top: 5%;
-        margin-bottom: 5%;
+        width: 50%;
+        margin: auto;
+        padding: 10%;
+
+    }
+    h3{
+        width: 100%;
+        padding-top: 5%;
+        padding-bottom: 3%;
+        margin: auto;
+        text-align:left;
+    }
+    .work-para-1{
+        width: 100%;
+        text-align: center;
+        margin: auto;
+       
+    }
+
+    .heading-help{
+        width: 80%;
     }
     .help-para{
-        width: 75%;
+        width: 100%;
+        padding-bottom: 10%;
     }
-    
-}   
-
-
-
-   
+    .btn{
+        width: 50%;
+        padding-bottom: 10%;
+    }
+    .bottom{
+        display: none;
+    }
+}
