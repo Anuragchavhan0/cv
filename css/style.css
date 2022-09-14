@@ -163,20 +163,19 @@ hr {
     text-align: center;
     background-color: #262626;
     margin: auto;
-    margin-top: -50px;
-    width: 400px;
+    width: 40%;
 }
 
 .help {
     font-size: 3.rem;
     background: none;
-    margin-bottom: 30px;
+    margin-bottom:3%;
 }
 
 .help-para {
     width: 40%;
     margin: auto;
-    margin-top: 5px;
+    margin-top: 1%;
     font-weight: 100;
 
 }
@@ -188,6 +187,7 @@ hr {
 
 .button {
     background: none;
+    
 }
 
 .btn {
@@ -207,6 +207,7 @@ hr {
     text-decoration: none;
 }
 
+
 .btn:hover {
     background: #e61c55;
     background-image: -webkit-linear-gradient(top, #e61c55, #f6a71f);
@@ -220,41 +221,187 @@ hr {
 .bottom {
     background-color: #262626;
     background: none;
-    padding: 40px;
+    padding: 5%;
     color: #f6a71f;
 }
+  
 
-@media (max-width:420px) {
+@media (min-width:769px) and ( max-width:1023px){
+    *{
+        height: auto;
+        margin: auto;
+        text-align: center;
+
+    }
+    .container{
+        display: block;
+    }
+    .heading{
+        width: 100%;
+        padding-top: 3%;
+    }
+    .astronaut-image{
+        width: 60%;
+        height: auto;
+        padding-bottom: 10%;
+    }
+    .asteroid-image{
+        width: 60%;
+        height: auto;
+    }
+    .about-me{
+        width: 70%;
+        height: auto;
+    }
+    .work-image{
+        width: 50%;
+        padding-left: 5%;
+    }
+    .work-image-2{
+        width: 50%;
+        padding-right: 10%;
+    }
+    .work-section{
+        display: block;
+        padding-top: 10%;
+       
+    }
+    .work-section-2{
+        display: block;
+        padding-top: 10%;
+        
+    }
+    .right{
+        padding-top: 10%;
+
+        
+    }
+    .left{
+        padding-top: 5% ;
+    }
+    h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .work-para-1{
+        text-align: center;
+    }
+
+    
+    
+    
+}
+
+
+@media (max-width:768px) {
+
+    *{
+        text-align: center;
+        height: auto;
+        margin: auto;
+        
+    }
+    .container{
+        display: block;
+    }
+    .astronaut-image{
+        width: 100%;
+        height: auto;
+    }
+    .asteroid-image{
+        width: 100%;
+        height: auto;
+    }
+    .about-me{
+        width: 70%;
+        height: auto;
+    }
+    .work-heading{
+        width: 100%;
+    }
+    .work-section{
+        display: block;
+    }
+    .work-section-2{
+        display: block;
+    }
+    .work-image{
+        width: 50%;
+        height: auto;
+        align-items: center;
+        padding-left: 10%;
+        padding-top: 10%;
+    }
+    .work-image-2{
+        width: 50%;
+        height: auto;
+        align-items: center;
+        padding-right: 10%;
+    }
+    .right {
+        padding: 10% ;
+        
+
+    }
+    .left{
+        padding: 10% ;
+    }
+    h3{
+        text-align: center;
+    }
+    .work-para-1{
+        text-align: center;
+        width: 100%;
+    }
+    .heading-help{
+        width: 50%;
+        height: auto;
+        text-align: center;
+    }
+    .help-para{
+        width: 70%;
+    }
+
+
+
+}
+
+
+
+@media (max-width:360px) {
+    *{
+        height: auto;
+
+    }
     
 
     .container {
         display: block;
     }
+    .heading{
+        font-size: 4rem;
+    }
 
-    .heading {
-        text-align: center;
-        margin: auto;
+    .astronaut-image{
+        display: block;
         width: 100%;
+        height: auto;
+        
     }
-
-    .img2 {
+    .asteroid-image{
         display: block;
-        width: 50%;
-        padding-bottom: 10%;
-        margin: auto;
-    }
-    .img{
-        display: block;
-        width: 45%;
-        margin: auto;
-        padding-top: 10%;
+        width: 100%;
+        height: auto;
+      
     }
     .about-me{
-        width: 100%;
+        width: 70%;
+        height: auto;
     }
+    
     .work-heading{
         width: 100%;
-        margin: auto;
+       
         
     }
     .work-section{
@@ -265,40 +412,28 @@ hr {
         display: block;
 
     }
-    .right{
-        width: 100%;
-    }
-    .left{
-        width: 100%;
-    }
     .work-image{
         width: 50%;
-        margin: auto;
-        padding: 10%;
+       height: auto;
 
     }
     .work-image-2{
         width: 50%;
-        margin: auto;
-        padding: 10%;
-
+        height: auto;
     }
+
     h3{
         width: 100%;
-        padding-top: 5%;
-        padding-bottom: 3%;
-        margin: auto;
-        text-align:left;
+        text-align:center;
     }
     .work-para-1{
         width: 100%;
         text-align: center;
-        margin: auto;
-       
+        font-size: 0.8rem;
     }
 
     .heading-help{
-        width: 80%;
+        width: 100%;
     }
     .help-para{
         width: 100%;
